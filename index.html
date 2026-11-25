@@ -376,7 +376,7 @@
         </div>
         <div>
           <h4 class="text-base font-bold text-white">Masukkan PIN Panitia</h4>
-          <p class="text-xs text-slate-400 mt-1">Default PIN : <code class="text-cyan-300 font-bold">-</code></p>
+          <p class="text-xs text-slate-400 mt-1">Default PIN simulasi: <code class="text-cyan-300 font-bold">2026</code></p>
         </div>
         <form onsubmit="verifyAdminPin(event)" class="space-y-3">
           <input type="password" id="adminPinInput" maxlength="10" placeholder="••••" required
@@ -446,7 +446,7 @@
   <script>
     // ==================== STATE & INITIAL DATA ====================
     const STORAGE_KEY = 'classmeet_analytics_v2';
-    const ADMIN_PIN = 'CM26';
+    const ADMIN_PIN = '2026';
     const MAX_VOTES = 3;
 
     const BAD_WORDS = [
